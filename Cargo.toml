@@ -5,9 +5,9 @@ authors = ["Seok Won <ikr@kakao.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-[[bin]]
-name = "hello_world"
-path = "src/sorting/insertion_sort.rs"
+# [[bin]]
+# name = "hello_world"
+# path = "src/sorting/insertion_sort.rs"
 
 [dependencies]
 rand = "0.8.3"
