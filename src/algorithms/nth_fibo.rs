@@ -16,9 +16,9 @@ fn main() {
     io::stdout().flush().unwrap();
     let mut input = String::new();
     match io::stdin().read_line(&mut input) {
-        Ok(n) => {
+        Ok(_) => {
             // println!("{} bytes read", n);
-            let fibo: u32 = calculate(input.trim().parse::<u32>().unwrap());
+            let fibo = calculate(input.trim().parse::<u32>().unwrap());
             println!("N-th fibonacci: {}", fibo);
         }
         Err(error) => println!("Error: {}", error),
