@@ -57,6 +57,7 @@ name = "hello_world"
 version = "0.1.0"
 dependencies = [
  "fastrand",
+ "lazy_static",
  "rand",
  "time",
 ]
